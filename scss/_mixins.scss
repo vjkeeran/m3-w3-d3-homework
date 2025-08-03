@@ -1,0 +1,14 @@
+// Mixin for button
+@mixin button-style {
+  background-color: $yellow;
+  color: $dark;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+
+  &:hover {
+    background-color: $light-green;
+  }
+}

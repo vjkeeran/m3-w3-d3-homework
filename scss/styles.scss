@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'mixins';
+@import 'nav';
+@import 'main';
+
+body {
+  margin: 0;
+  font-family: $main-font;
+  background-color: $yellow;
+}
+
+header, footer {
+  background-color: $yellow;
+  color: $white;
+  text-align: center;
+  padding: 10px 0;
+}
